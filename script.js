@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; // <-- yahan apna VoiceRSS API key daalo
+const apiKey = "303ad97c71d040cfb627f80c35a5355a"; // <-- yahan apna VoiceRSS API key daalo
 const speakBtn = document.getElementById("speakBtn");
 const downloadBtn = document.getElementById("downloadBtn");
 const textInput = document.getElementById("textInput");

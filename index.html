@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AK AI Voice</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎤 AK AI Voice</h1>
+  </header>
+
+  <!-- Google Ads Placeholder -->
+  <div class="ad-space">[Your Google Ad Code Here]</div>
+
+  <main>
+    <textarea id="textInput" placeholder="Yahan likho..."></textarea>
+
+    <div class="controls">
+      <label>Language:</label>
+      <select id="language">
+        <option value="hi-in">Hindi</option>
+        <option value="en-in">English</option>
+      </select>
+
+      <label>Voice:</label>
+      <select id="voiceType">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+      </select>
+
+      <label>Speed: <span id="speedValue">50</span></label>
+      <input type="range" id="speed" min="1" max="100" value="50" />
+    </div>
+
+    <div class="buttons">
+      <button id="speakBtn">🔊 Speak</button>
+      <button id="downloadBtn">⬇️ Download</button>
+    </div>
+
+    <audio id="audioPlayer" controls></audio>
+  </main>
+
+  <!-- Google Ads Placeholder -->
+  <div class="ad-space">[Your Google Ad Code Here]</div>
+
+  <footer>
+    <p>© 2025 AK AI Voice | Made for Creators</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
